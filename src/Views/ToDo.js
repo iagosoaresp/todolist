@@ -9,7 +9,7 @@ export const ToDoList = () => {
     return (
         <>
             <div className='header'>
-                <img src={logo}/>
+                <img src={logo} alt="to do list"/>
             </div>
             <div className='container'>
                 <div id="card">
