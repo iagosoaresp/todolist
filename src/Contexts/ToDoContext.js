@@ -6,7 +6,6 @@ export const ToDoProvider = ({ children }) => {
     const [listTasks, setListTasks] = useState([])
     const [task, setTask] = useState("")
 
-    useEffect(() => { console.log(listTasks) }, [listTasks])
     const addTask = async () => {
         if (task !== "") {
             const toDo = await {
